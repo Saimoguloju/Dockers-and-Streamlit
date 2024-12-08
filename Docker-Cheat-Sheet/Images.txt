@@ -1,0 +1,17 @@
+IMAGES 
+- Docker images are a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+
+- Build image from a Dockerfile
+docker build -t <image_name>
+
+- Build image from a Dockerfile without the cache
+docker build -t <image_name> . -no-nache
+
+- List local images
+ddocker images
+
+- Delete an image
+docker rmi <image_name>
+
+- Remove all unused images
+docker image prune
